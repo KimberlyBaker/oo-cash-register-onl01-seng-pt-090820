@@ -32,7 +32,6 @@ class CashRegister
     else
       return "There is no discount to apply."
     end
-    binding.pry
   end
   
   def void_last_transaction
