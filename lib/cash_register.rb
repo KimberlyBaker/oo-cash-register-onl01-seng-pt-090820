@@ -24,4 +24,8 @@ class CashRegister
   end
   
   def apply_discount
+    if @discount > 0
+      @take_off = (price)
+    
+  end
 end
