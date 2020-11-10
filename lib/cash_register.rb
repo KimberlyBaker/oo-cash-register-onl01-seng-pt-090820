@@ -25,7 +25,9 @@ class CashRegister
   
   def apply_discount
     if @discount > 0
-      @take_off = (price)
+      @reduce = (price * discount)/100
+      @total -= @reduce
+      return "After the discount, your total comes to $#{"
     
   end
 end
